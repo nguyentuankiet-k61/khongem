@@ -1,3 +1,7 @@
+var sound = new Howl({
+    urls: ['Merry Christmas_song_lastchrismas.mp3'],
+    loop: true
+  });
 var boxgift = document.querySelector('.box-gift')
 var Close = document.querySelector('.fa-xmark')
 var boxContent = document.querySelector('.box-content')
